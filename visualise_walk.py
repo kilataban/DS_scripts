@@ -1,4 +1,6 @@
 # NumPy is imported, seed is set
+import numpy as np
+np.ransom.seed(123)
 
 # Initialization
 random_walk = [0]
