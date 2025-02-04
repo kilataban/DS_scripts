@@ -1,0 +1,2 @@
+In order to generate a random float, this numpy function should be used:
+np.random.rand()
