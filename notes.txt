@@ -1,2 +1,8 @@
 In order to generate a random float, this numpy function should be used:
 np.random.rand()
+
+
+In order to select the last row in a numpy array you can dot he following, the colon indicator under column means select all columns:
+
+# Select the last row
+last_row = array[-1, :]
