@@ -6,3 +6,8 @@ In order to select the last row in a numpy array you can dot he following, the c
 
 # Select the last row
 last_row = array[-1, :]
+
+
+# Data manipulation with Pandas
+Pandas is designed to work with tabular data like this and composes them into dataframes
+
