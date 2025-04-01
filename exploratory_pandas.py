@@ -55,3 +55,6 @@ dogs[is_lab & is_brown]
 
 #Alternative code write
 dogs[ (dogs["breed"] == "Labrador") & (dogs["color"] == "Brown") ]
+
+is_black_or_brown = dogs["color"].isin(["Black", "Brown"])
+dogs[is_black_or_brown]
