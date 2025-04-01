@@ -32,3 +32,26 @@ df_name.sort_values(["column_name_1", "column_name_2"])
 
 #sorting values by multiple variables (Ascending, and Descending)
 df_name.sort_values(["column_name_1", "column_name_2"], ascending=[True, False])
+
+#SUBSETTING COLUMNS
+df_name["column_name"]
+
+#Subsetting Multiple columns
+df_name[["first_column_name", "second_column_name"]]
+
+#Subsetting rows
+df_name["column_name"] > 50
+
+#Subsetting based on text data
+df_name[df_name["column_name"] == "Text needed"]
+
+#Subsetting the data by date
+df_name[df_name["column_name"] < "2025-01-01"]
+
+#Subsetting based on multiple conditions
+is_lab = dogs["breed"] == "Labrador"
+is_brown = dogs["color"] == "Brown"
+dogs[is_lab & is_brown]
+
+#Alternative code write
+dogs[ (dogs["breed"] == "Labrador") & (dogs["color"] == "Brown") ]
