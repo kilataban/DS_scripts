@@ -27,4 +27,8 @@ df_name.sort_values("column_name")
 #sorting values in descending order
 df_name.sort_values("column_name", ascending=False)
 
+#sorting values by multiple variables
+df_name.sort_values(["column_name_1", "column_name_2"])
 
+#sorting values by multiple variables (Ascending, and Descending)
+df_name.sort_values(["column_name_1", "column_name_2"], ascending=[True, False])
