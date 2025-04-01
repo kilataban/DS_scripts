@@ -12,3 +12,6 @@ last_row = array[-1, :]
 Pandas is designed to work with tabular data like this and composes them into dataframes
 
 Pandas deliberately allows for multiple solutions and ways of thought for the resolution of problems.
+
+
+#Sorting and Subsetting Pandas dataframes

@@ -18,3 +18,13 @@ print(df_name.columns)
 
 #to check number indexing of rows
 print(df_name.index)
+
+#SORTING AND SUBSETTING
+
+#sorting values by column name
+df_name.sort_values("column_name")
+
+#sorting values in descending order
+df_name.sort_values("column_name", ascending=False)
+
+
