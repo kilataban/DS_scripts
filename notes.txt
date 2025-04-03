@@ -18,3 +18,4 @@ Pandas deliberately allows for multiple solutions and ways of thought for the re
 You can filter for multiple conditions at once by using the "bitwise and" operator, &.
 
 dogs[(dogs["height_cm"] > 60) & (dogs["color"] == "tan")]
+this allows height and colour filtering concurrently 
