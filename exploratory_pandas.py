@@ -58,3 +58,10 @@ dogs[ (dogs["breed"] == "Labrador") & (dogs["color"] == "Brown") ]
 
 is_black_or_brown = dogs["color"].isin(["Black", "Brown"])
 dogs[is_black_or_brown]
+
+# subsetting rows by filtering and selection
+dogs[dogs["height_cm"] > 60]
+dogs[dogs["color"] == "tan"]
+
+# filtering for multiple conditions at once using "bitwise and" operator, &
+dogs[(dogs["height_cm"] > 60) & (dogs["color"] == "tan")]
