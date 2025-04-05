@@ -19,4 +19,5 @@ You can filter for multiple conditions at once by using the "bitwise and" operat
 
 dogs[(dogs["height_cm"] > 60) & (dogs["color"] == "tan")]
 
-There are many ways to subset a DataFrame, perhaps the most common is to use relational operators to return True or False for each row, then pass that inside square brackets.
+There are many ways to subset a DataFrame, perhaps the most common is to use relational operators 
+to return True or False for each row, then pass that inside square brackets.
