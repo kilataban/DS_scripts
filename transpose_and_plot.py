@@ -5,6 +5,7 @@ np.random.seed(123)
 
 # initialize and populate all_walks
 all_walks = []
+
 for i in range(5) :
     random_walk = [0]
     for x in range(100) :
