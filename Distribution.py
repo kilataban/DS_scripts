@@ -2,6 +2,7 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
+
 np.random.seed(123)
 final_tails = []
 for x in range(1000):
