@@ -11,7 +11,7 @@ print(df_name.shape)
 #this is good for a numerical overview of numbers
 print(df_name.describe())
 
-#to display the components of a dataframe
+#how to display the components of a dataframe
 print(df_name.values)
 
 print(df_name.columns)
