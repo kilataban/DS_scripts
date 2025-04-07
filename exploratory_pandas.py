@@ -1,4 +1,4 @@
-#to explore a python Data Frame Head
+#how to explore a python Data Frame Head
 print(df_name.head())
 
 #Explore DataFrame Info
