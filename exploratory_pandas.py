@@ -53,7 +53,7 @@ is_lab = dogs["breed"] == "Labrador"
 is_brown = dogs["color"] == "Brown"
 dogs[is_lab & is_brown]
 
-#Alternative code write
+#Alternative code write for multiple conditions
 dogs[ (dogs["breed"] == "Labrador") & (dogs["color"] == "Brown") ]
 
 is_black_or_brown = dogs["color"].isin(["Black", "Brown"])
