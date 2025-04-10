@@ -10,3 +10,7 @@ dogs[condition]
 # New columns data manipulation with pandas
 dogs["height_m"] = dogs["height_cm"] / 100
 print(dogs)
+
+#testing bmi function with dogs dataframe
+dogs["bmi"] = dogs["weight_kg"] / dogs["height_m"] ** 2
+print(dogs.head())
