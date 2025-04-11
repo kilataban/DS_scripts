@@ -23,3 +23,11 @@ bmi_lt_100_height[["name", "height_cm", "bmi"]]
 #It is possible add new columns to data as well
 # These operations are called TRANSFORMING, MUTATING, AND FEATURE ENGINEERING
 
+# Add total col as sum of individuals and family_members
+homelessness["total"] = homelessness["individuals"] + homelessness["family_members"]
+
+# Add p_homeless col as proportion of total homeless population to the state population
+homelessness["p_homeless"] = homelessness["total"] / homelessness["state_pop"]
+
+# See the result
+print(homelessness)
