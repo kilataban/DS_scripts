@@ -31,3 +31,4 @@ homelessness["p_homeless"] = homelessness["total"] / homelessness["state_pop"]
 
 # See the result
 print(homelessness)
+

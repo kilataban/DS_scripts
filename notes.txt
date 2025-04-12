@@ -21,3 +21,5 @@ dogs[(dogs["height_cm"] > 60) & (dogs["color"] == "tan")]
 
 There are many ways to subset a DataFrame, perhaps the most common is to use relational operators 
 to return True or False for each row, then pass that inside square brackets.
+
+In a real-life data analysis, you can mix and match these four manipulations to answer a multitude of questions.
