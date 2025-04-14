@@ -17,6 +17,7 @@ print(dogs.head())
 
 # multiple manipulations with pandas
 bmi_lt_100 = dogs[dogs["bmi"] < 100]
+
 bmi_lt_100_height = bmi_lt_100.sort_values("height_cm", ascending=False)
 bmi_lt_100_height[["name", "height_cm", "bmi"]]
 
