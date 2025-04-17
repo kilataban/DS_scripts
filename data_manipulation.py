@@ -46,5 +46,5 @@ high_homelessness_srt = high_homelessness.sort_values("indiv_per_10k", ascending
 # From high_homelessness_srt, select the state and indiv_per_10k cols
 result = high_homelessness_srt[["state", "indiv_per_10k"]]
 
-# See the result
+# See the result of the homelessness dataframe subset
 print(result)
