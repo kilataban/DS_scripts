@@ -9,3 +9,12 @@ dogs["height_cm"].mean()
 .median()  .mode() 
 .min()     .max()
 .var()     .std()
+.sum()
+.quantile()
+
+
+# summary dates example
+dogs["date_of_birth"].min()
+
+dogs["date_of_birth"].max()
+
