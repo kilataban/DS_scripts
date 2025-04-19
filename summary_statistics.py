@@ -35,3 +35,12 @@ def pct40(column):
 
 # this yields the fortieth percentile
 dogs["weight_kg"].agg([pct30, pct40])
+
+
+# CUMULATIVE SUM
+dogs["weight_kg"].cumsum()
+
+# OTHER CUMULATIVE STATISTICS METHODS
+.cummax()
+.cummin()
+.cumprod()
