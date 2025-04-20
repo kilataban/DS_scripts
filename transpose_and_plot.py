@@ -22,6 +22,7 @@ for i in range(5) :
 
 # Convert all_walks to NumPy array: np_aw
 np_aw = np.array(all_walks)
+
 # Plot np_aw and show
 plt.plot(np_aw)
 plt.show()
