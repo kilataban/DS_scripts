@@ -15,7 +15,6 @@ dogs["height_cm"].mean()
 
 # summary dates example
 dogs["date_of_birth"].min()
-
 dogs["date_of_birth"].max()
 
 # The .agg() method
