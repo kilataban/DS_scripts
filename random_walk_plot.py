@@ -19,4 +19,5 @@ for x in range(100):
 
 # Plot random_walk
 plt.plot(random_walk)
+
 plt.show()
