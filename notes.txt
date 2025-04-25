@@ -31,7 +31,8 @@ some cummulative statistics methods include:
 .sum()
 .quantile()
 
-# CUMULATIVE SUM
+
+# CUMULATIVE SUM METHODS
 dogs["weight_kg"].cumsum()
 
 # OTHER CUMULATIVE STATISTICS METHODS
