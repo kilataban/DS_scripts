@@ -32,7 +32,7 @@ some cummulative statistics methods include:
 .quantile()
 
 
-# CUMULATIVE SUM METHODS
+# CUMULATIVE SUM METHODS NOTATION
 dogs["weight_kg"].cumsum()
 
 # OTHER CUMULATIVE STATISTICS METHODS
