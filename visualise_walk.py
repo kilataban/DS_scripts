@@ -21,7 +21,7 @@ for x in range(100) :
 # Import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
 
-# Plot random_walk
+# Plot random_walk using plt
 plt.plot(random_walk)
 
 # Show the plot
