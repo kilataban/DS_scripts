@@ -15,6 +15,8 @@ print(dogs)
 dogs["bmi"] = dogs["weight_kg"] / dogs["height_m"] ** 2
 print(dogs.head())
 
+#test with head of DS
+
 # multiple manipulations with pandas
 bmi_lt_100 = dogs[dogs["bmi"] < 100]
 
