@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib as plt
 np.random.seed(123)
 
+
 # initialize and populate all_walks
 all_walks = []
 
