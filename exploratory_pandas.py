@@ -51,6 +51,8 @@ df_name[df_name["column_name"] < "2025-01-01"]
 #Subsetting based on multiple conditions
 is_lab = dogs["breed"] == "Labrador"
 is_brown = dogs["color"] == "Brown"
+
+#concatenating subset conditions
 dogs[is_lab & is_brown]
 
 #Alternative code write for multiple conditions
