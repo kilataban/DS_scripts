@@ -24,7 +24,7 @@ print(df_name.index)
 #sorting values by column name
 df_name.sort_values("column_name")
 
-#sorting values in descending order
+#sorting values by column name in descending order
 df_name.sort_values("column_name", ascending=False)
 
 #sorting values by multiple variables
