@@ -30,7 +30,9 @@ some cummulative statistics methods include:
 .var()     .std()
 .sum()
 .quantile()
-
+.mode()
+.max()
+.std()
 
 # CUMULATIVE SUM METHODS NOTATION
 dogs["weight_kg"].cumsum()
