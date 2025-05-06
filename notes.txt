@@ -25,9 +25,9 @@ to return True or False for each row, then pass that inside square brackets.
 In a real-life data analysis, you can mix and match these four manipulations to answer a multitude of questions.
 
 some cummulative statistics methods include:
-.median()  .mode() 
-.min()     .max()
-.var()     .std()
+.median()  
+.min()   
+.var() 
 .sum()
 .quantile()
 .mode()
