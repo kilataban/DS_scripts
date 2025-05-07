@@ -1,4 +1,5 @@
-# NumPy is imported, seed is set
+# NumPy is imported
+# Seed is set
 import numpy as np
 np.ransom.seed(123)
 
