@@ -8,8 +8,10 @@ dogs["height_cm"].mean()
 # Other methods of summary include
 .median()  
 .mode() 
-.min()     .max()
-.var()     .std()
+.min()     
+.max()
+.var()     
+.std()
 .sum()
 .quantile()
 
