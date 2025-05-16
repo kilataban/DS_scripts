@@ -39,6 +39,7 @@ some cummulative statistics methods include:
 dogs["weight_kg"].cumsum()
 
 # OTHER CUMULATIVE STATISTICS METHODS
+
 .cummax()
 .cummin()
 .cumprod()
