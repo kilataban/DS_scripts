@@ -22,8 +22,10 @@ dogs["date_of_birth"].max()
 
 # The .agg() method
 # .agg() does a full aggregation
+
 def pct30(column):
     return column.quantile(0.3)
+    
 # this yields the 30th percentile
 
 dogs["weight_kg"].agg(pct30)
