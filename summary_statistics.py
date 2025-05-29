@@ -15,7 +15,6 @@ dogs["height_cm"].mean()
 .sum()
 .quantile()
 
-
 # summary dates example
 
 dogs["date_of_birth"].min()
